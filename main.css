@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('./fonts/Triglavian.eot');
+  /* IE9 Compat Modes */
+  src: url('./fonts/Triglavian.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('./fonts/Triglavian.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('./fonts/Triglavian.woff') format('woff'),
+    /* Pretty Modern Browsers */
+    url('./fonts/Triglavian.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('./fonts/Triglavian.svg') format('svg');
+  /* Legacy iOS */
+}
+
+.triglavian {
+  font-family: 'MyWebFont';
+}
